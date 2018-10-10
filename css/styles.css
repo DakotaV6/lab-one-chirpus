@@ -7,6 +7,7 @@ body {
 }
 h1, h3 {
     color: #000;
+    font-weight: 500;
 }
 p {
     color: #69696a;
@@ -40,6 +41,9 @@ a {
     text-decoration: none;
     color: #69696a;
 }
+nav a.button {
+    padding: 10px 25px 10px 25px;
+}
 
 /***********************************/
 
@@ -72,16 +76,25 @@ h1 {
     background-color: rgba(247, 193, 162, 0.7);
     width: 300px;
     height: 300px;
+    top: 400px;
+    right: 0px;
+    z-index: 4;
 }
 .purple {
     background-color: rgba(207, 130, 213, 0.6);
     width: 200px;
     height: 200px;
+    top: 250px;
+    right: 0px;
+    z-index: 3;
 }
 .salmon {
     background-color: rgba(247, 136, 167, 0.6);
     width: 400px;
     height: 400px;
+    top: 220px;
+    right: 125px;
+    z-index: 2;
 }
 
 /***********************************/
@@ -91,7 +104,5 @@ h1 {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 40px;
-    height: 30px;
-    padding: 10px;
+    padding: 10px 15px 10px 15px;
 }
